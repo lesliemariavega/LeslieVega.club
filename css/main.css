@@ -1,0 +1,147 @@
+/*************Fonts used:
+font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif; **********/
+
+/*************HEADER*****************/
+header {
+  width: 1200px;
+  height: 800px;
+}
+ul {
+  font-family: 'open sans', sans-serif;
+  font-size: 24pt;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+
+}
+li {
+  display: inline;
+}
+a:link, a:active, a:visited, a:hover {
+  color: #313131;
+    text-decoration: none;
+}
+.hello  img{
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+
+
+}
+.hello h1 {
+  position:relative ;
+  top: 18px;
+  left: 10px;
+  color: #313131;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 64pt;
+
+}
+
+span {
+  color: #ff654a;
+}
+
+ h2 {
+  color: #313131;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48pt;
+}
+
+/*****ABOUT*****/
+#about {
+  width:1200px;
+  height:1050px;
+  background-color: #ff654a;
+  text-align: justify;
+
+}
+#about h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 48pt;
+  color: #ffffff;
+  text-align: justify;
+  margin-left: 420px;
+
+}
+#about p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24pt;
+  color: #ffffff;
+  text-align: justify;
+  margin: 100px;
+}
+
+#about img {
+  margin-left: 400px;
+}
+
+
+/***PORTFOLIO****/
+#problemsection{
+
+  height: 850px;
+  width:1200px;
+}
+
+.projects {
+  float: left;
+
+  margin: 10px;
+}
+
+.projects, h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size:48pt;
+  color: #313131;
+  text-align: center;
+}
+.projects, h4 {
+
+font-family: 'Open sans', sans-serif;
+font-size:24pt;
+color: #313131;
+text-align: justify;
+line-height: 5px;
+text-align: center;
+}
+
+/**************Connect*************/
+#connect {
+  width: 1200px;
+  height: 650px;
+  background: #ff654a;
+  }
+
+#connect h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 48pt;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#connect h4 {
+  font-family: 'Open sans', sans-serif;
+  font-size:24pt;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom:50px;
+}
+#connect p{
+  font-family: 'Open sans', sans-serif;
+  font-size: 24pt;
+  color: #ffffff;
+  text-align: center;
+  line-height: 5px;
+}
+.contactme {
+  float: left;
+  padding: 10px;
+  margin: 25px;
+
+
+}
